@@ -9,13 +9,13 @@ void main()
     {  s=0;
        for(j=1;j<=i/2;j++)
        {   if(i%j==0)
-	          s=s+j;
-	       if(j==i/2 && s==i)
-	          a[n++]=i;
+	      s=s+j;
+	   if(j==i/2 && s==i)
+	      a[n++]=i;
        }
     }
     cout<<"There (is/are) "<<n<<" perfect number(s) till "<<N<<"\nThe number(s) :";
     for(i=0;i<n;i++)
-    cout<<" "<<a[i];
+        cout<<" "<<a[i];
     getch();
 }
