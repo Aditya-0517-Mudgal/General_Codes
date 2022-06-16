@@ -18,8 +18,8 @@ void main()
 	num=num/10;
     }
     if(sum==x)
-       cout<<"This is a Strong number";
+       cout<<"This is a Strong Number";
     else
-       cout<<"This is not a Strong number";
+       cout<<"This is not a Strong Number";
     getch();
 }
