@@ -14,7 +14,7 @@ void main()
 	      a[n++]=i;
        }
     }
-    cout<<"There (is/are) "<<n<<" perfect number(s) till "<<N<<"\nThe number(s) :";
+    cout<<"There (is/are) "<<n<<" Perfect Number(s) till "<<N<<"\nThe number(s) :";
     for(i=0;i<n;i++)
         cout<<" "<<a[i];
     getch();
