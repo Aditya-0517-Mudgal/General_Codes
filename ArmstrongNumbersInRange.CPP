@@ -26,7 +26,7 @@ void main()
 	if(s==i)
 	   a[n++]=i;
     }
-    cout<<"There are "<<n<<" armstrong numbers till "<<N<<"\nThey are :";
+    cout<<"There are "<<n<<" Armstrong Numbers till "<<N<<"\nThey are :";
     for(i=0;i<n;i++)
 	cout<<" "<<a[i];
     getch();
