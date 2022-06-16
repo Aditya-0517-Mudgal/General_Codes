@@ -15,16 +15,16 @@ void main()
     {   c=s=0;
 	z=x=i;
 	while(x>0)
-	{   x=x/10;
-	    c++;
+	{  x=x/10;
+	   c++;
 	}
 	while(z>0)
-	{   r=z%10;
-	    s=s+arm(r,c);
-	    z=z/10;
+	{  r=z%10;
+	   s=s+arm(r,c);
+	   z=z/10;
 	}
 	if(s==i)
-	    a[n++]=i;
+	   a[n++]=i;
     }
     cout<<"There are "<<n<<" armstrong numbers till "<<N<<"\nThey are :";
     for(i=0;i<n;i++)
