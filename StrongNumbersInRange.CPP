@@ -16,13 +16,13 @@ void main()
 	s=0;
 	while(x>0)
 	{   r=x%10;
-	    s=s+fact(r);
+	    s=s + fact(r);
 	    x=x/10;
 	}
 	if(i==s)
 	   a[n++]=i;
     }
-    cout<<"There are "<<n<<" strong numbers till "<<N<<"\nThey are :";
+    cout<<"There are "<<n<<" Strong Numbers till "<<N<<"\nThey are :";
     for(i=0;i<n;i++)
 	cout<<" "<<a[i];
     getch();
