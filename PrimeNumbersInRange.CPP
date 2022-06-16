@@ -20,7 +20,7 @@ void main()
 	   }
 	}
     }
-    cout<<"There are "<<n<<" prime numbers till "<<N<<"\nThey are :";
+    cout<<"There are "<<n<<" Prime Numbers till "<<N<<"\nThey are :";
     for(i=0;i<n;i++)
         cout<<" "<<a[i];
     getch();
