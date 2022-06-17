@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {  unsigned int i,n;
    clrscr();
    printf("Enter a number : ");
@@ -16,5 +16,4 @@ int main()
       }
    }
    getch();
-   return 0;
 }
