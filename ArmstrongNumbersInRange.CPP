@@ -8,7 +8,7 @@ int arm(int r,int c)
 }
 void main()
 {   clrscr();
-    int i,N,n=0,c,r,s,x,z,a[100];
+    unsigned int i,N,n=0,c,r,s,x,z,a[20];
     cout<<"Enter a number : ";
     cin>>N;
     for(i=1;i<=N;i++)
