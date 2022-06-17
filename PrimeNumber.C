@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 int main()
-{  int i,n;
+{  unsigned int i,n;
    clrscr();
    printf("Enter a number : ");
    scanf("%d",&n);
