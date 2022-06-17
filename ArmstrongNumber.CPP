@@ -7,7 +7,7 @@ int x(int j, int rem)
    return y;
 }
 void main()
-{  int num,sum=0,rem,i,j=0,n;
+{  unsigned int num,sum=0,rem,i,j=0,n;
    clrscr();
    cout<<"Enter the number : ";
    cin>>num;
