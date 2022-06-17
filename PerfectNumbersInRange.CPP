@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {   clrscr();
-    unsigned int i,j,s,N,a[10],n=0;
+    unsigned int i,j,s,N,n=0,a[4];
     cout<<"Enter a number : ";
     cin>>N;
     for(i=1;i<=N;i++)
