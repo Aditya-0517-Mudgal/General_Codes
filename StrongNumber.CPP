@@ -8,7 +8,7 @@ int fact(int r)
 }
 void main()
 {   clrscr();
-    int i,r,x,num,sum=0;
+    unsigned int i,r,x,num,sum=0;
     cout<<"Enter the number : ";
     cin>>num;
     x=num;
